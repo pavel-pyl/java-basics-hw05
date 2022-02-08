@@ -1,5 +1,11 @@
-public class Eagle {
-  // TODO fix class declaration
+public class Eagle extends FlyingBird{
 
-  // TODO override toString method by returning a string with the class name
+  public Eagle(){
+    Zoo.birds.add(this);
+  }
+
+  @Override
+  public String toString() {
+    return this.getClass().getName();
+  }
 }

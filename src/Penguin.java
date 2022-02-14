@@ -1,6 +1,6 @@
-public class Penguin extends NonFlyingBird{
+public class Penguin extends NonFlyingBird {
 
-  public Penguin(){
+  public Penguin() {
     Zoo.birds.add(this);
   }
 

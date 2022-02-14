@@ -1,7 +1,7 @@
-public abstract class NonFlyingBird extends Bird{
+public abstract class NonFlyingBird extends Bird {
 
   @Override
-  public String toString(){
+  public String toString() {
     return "NonFlyingBird";
   }
 }

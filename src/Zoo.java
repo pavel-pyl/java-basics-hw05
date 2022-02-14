@@ -7,11 +7,10 @@ public class Zoo {
 
   /**
    * Feeds different bird sections of the zoo.
-   *
    */
   public static void feed() {
     System.out.println("Feeding birds");
-    for (Bird bird: birds){
+    for (Bird bird : birds) {
       bird.eat();
     }
   }
@@ -38,7 +37,7 @@ public class Zoo {
   public static void registerBird(List<Bird> list, Bird newBird) {
     System.out.println("Adding a bird to the birds list");
     list.add(newBird);
-    for (Bird bird: birds) {
+    for (Bird bird : birds) {
       System.out.println(bird);
     }
   }

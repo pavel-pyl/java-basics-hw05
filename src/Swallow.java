@@ -1,6 +1,6 @@
-public class Swallow extends FlyingBird{
+public class Swallow extends FlyingBird {
 
-  public Swallow(){
+  public Swallow() {
     Zoo.birds.add(this);
   }
 
